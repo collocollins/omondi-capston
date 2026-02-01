@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Modules</h2>
+            <ul>
+                <!-- Resume Dropdown -->
+                <li class="dropdown">
+                    <a href="#" id="resume" class="button">Resume</a>
+                    <div class="dropdown-content">
+                        <a href="https://drive.google.com/file/d/1Q3jf7NQluBR23EqDdygayECBf_n50bXD/view?usp=sharing" target="_blank" id="english">English</a>
+                        <a href="https://drive.google.com/file/d/1dUIwOYpYpUbfBKBByFsBhb9IOHpz0kRB/view?usp=drive_link" target="_blank" id="kiswahili">Kiswahili</a>
+                        <a href="https://drive.google.com/file/d/1qk97YKDQ3vvsOAMBxbINPT5WEIuPfUp6/view?usp=drive_link" target="_blank" id="luo">Luo</a>
+                    </div>
+                </li>
+
+                <!-- Autobiography Dropdown -->
+                <li class="dropdown">
+                    <a href="#" id="autobiography" class="button">Autobiography</a>
+                    <div class="dropdown-content">
+                        <a href="files/autobiography.pdf" target="_blank" id="autobiographyEssay">Autobiographical Essay</a>
+                        <a href="files/autobiography_presentation.pptx" target="_blank" id="autobiographyPresentation">Autobiographical Presentation</a>
+                    </div>
+                </li>
+                <li><a href="#" id="innovation" class="button">Innovation Presentation</a></li>
+                <li><a href="#" id="africanCulture" class="button">African Culture</a></li>
+                <li><a href="#" id="photographicEssay" class="button">Photographic Essay</a></li> <!-- Added Photographic Essay button -->
+
+                <!-- Videos Dropdown -->
+                <li class="dropdown">
+                    <a href="#" id="videos" class="button">Videos</a>
+                    <div class="dropdown-content">
+                        <a href="#" id="innovationVideo">Innovation</a>
+                        <a href="#" id="africanCultureVideo">African Culture</a>
+                        <a href="#" id="modernChallengesVideo">Modern Challenges</a>
+                    </div>
+                </li>
+                
+                <!-- Social Media Icons in the Sidebar -->
+                <li>
+                    <h3>Online presense</h3>
+                    <div class="social-icons">
+                        <!-- Replace the href="#" with your actual social media links -->
+                        <a href="https://www.facebook.com/profile.php?id=100091958680904" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://x.com/OCollins22145" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/collins_omondi097/" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ochieng-collins-806b423a9/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                         </i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <!-- Updated Header Section -->
+            <header>
+                <h1>Capstone Project</h1>
+                <p><strong>Collins Ochieng | Registration No: C025-01-0853/2022</strong></p>
+            </header>
+            
+            <!-- Content will change based on user interaction -->
+            <div id="content">
+                <p>Welcome! Select a module to view details.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
